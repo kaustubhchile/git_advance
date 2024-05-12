@@ -101,14 +101,34 @@ Then to merge the changes go to the main branch and write the following command 
 
 The `git log` of the `master` branch is:
 
-![Screenshot 2024-05-12 161938](https://github.com/kaustubhchile/git_practice_test/assets/72078555/791fd4f9-c6eb-4fd6-a1f2-662336fb8454)
+![Screenshot 2024-05-12 165805](https://github.com/kaustubhchile/git_practice_test/assets/72078555/761af8ac-d41a-4849-828b-7001d56588c3)
 
 and the `git log` of `subtraction` branch is
 
-![Screenshot 2024-05-12 162403](https://github.com/kaustubhchile/git_practice_test/assets/72078555/255ec54d-15e9-434f-9ad9-ae0551929a81)
+![Screenshot 2024-05-12 165918](https://github.com/kaustubhchile/git_practice_test/assets/72078555/8e87658c-b76a-4661-b75b-4754cd9f98f5)
 
 Now to merge the 2 branches:
 
 ```bash
+  git merge [branch_name]
+```
 
+After merging you may again need to `stage and commit` in your `master branch` .
+
+![Screenshot 2024-05-12 170724](https://github.com/kaustubhchile/git_practice_test/assets/72078555/759e028d-2e6e-4b21-9d7a-ff6725872d76)
+![Screenshot 2024-05-12 170836](https://github.com/kaustubhchile/git_practice_test/assets/72078555/fb7bbad5-f9be-4ae9-a8be-0599efecf4d3)
+
+## Using `git rebase`
+
+`git log` for `master` branch
+
+![Screenshot 2024-05-12 171814](https://github.com/kaustubhchile/git_practice_test/assets/72078555/0bbed728-fccc-4ba1-82c9-e4d286c8d7ff)
+![Screenshot 2024-05-12 171902](https://github.com/kaustubhchile/git_practice_test/assets/72078555/4f7659df-cefc-41e7-89de-8eaa290c2a55)
+
+`git log` for `multiplication` branch:
+
+![Screenshot 2024-05-12 172014](https://github.com/kaustubhchile/git_practice_test/assets/72078555/cb5d6b4d-1310-481a-b3cf-f5f350d8a1d1)
+
+```bash
+  git rebase [branch_name]
 ```
