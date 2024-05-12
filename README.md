@@ -56,3 +56,59 @@ Now to push your changes to the `git` repository:
 ```bash
   git push -u origin master
 ```
+
+# Branching
+
+To create a branch from the `main` branch :
+
+```bash
+  git checkout -b [branch_name]
+```
+
+To check in which branch you are currently on :
+
+```bash
+  git branch
+```
+
+Then do the necessary changes by editing the file and then `staging` and `commiting` it.
+
+```bash
+  vim calculator.sh
+  git add calculator.sh
+  git commit -m [message]
+```
+
+To switch back to the main branch, command is:
+
+```bash
+  git checkout main
+```
+
+Basically branching is used to separate the branches from `development` branch
+
+## Using `git merge`
+
+Now create a `branch`. Make some changes in the `calculator.sh` and then run the following command.
+
+```bash
+  vim calculator.sh
+  git add calculator.sh
+  git commit -m [message]
+```
+
+Then to merge the changes go to the main branch and write the following command ( but before that just go once to the main branch and do some changes to `calculator.sh` ).
+
+The `git log` of the `master` branch is:
+
+![Screenshot 2024-05-12 161938](https://github.com/kaustubhchile/git_practice_test/assets/72078555/791fd4f9-c6eb-4fd6-a1f2-662336fb8454)
+
+and the `git log` of `subtraction` branch is
+
+![Screenshot 2024-05-12 162403](https://github.com/kaustubhchile/git_practice_test/assets/72078555/255ec54d-15e9-434f-9ad9-ae0551929a81)
+
+Now to merge the 2 branches:
+
+```bash
+
+```
