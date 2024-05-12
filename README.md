@@ -132,3 +132,5 @@ After merging you may again need to `stage and commit` in your `master branch` .
 ```bash
   git rebase [branch_name]
 ```
+
+![Screenshot 2024-05-12 172701](https://github.com/kaustubhchile/git_practice_test/assets/72078555/d76bfa27-6391-4b8e-9b5f-3653e2a09ebc)
