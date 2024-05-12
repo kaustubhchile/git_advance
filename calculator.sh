@@ -1,4 +1,7 @@
 #!/bin/bash
 
 # Addition Functionality
-xx=23+yy
+xx=12+ll  
+
+# Subtraction Functionality
+aa=78-66
