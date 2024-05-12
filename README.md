@@ -49,5 +49,4 @@ To add remote reference to a git repository:
 
 ```bash
   git remote add origin https://github.com/kaustubhchile/git_advance.git
-
 ```
